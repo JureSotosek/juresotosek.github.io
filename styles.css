@@ -115,6 +115,10 @@ body {
     width: 100%;
   }
 
+  .description {
+    width: 100%;
+  }
+
   .connection_title {
     width: auto;
   }
