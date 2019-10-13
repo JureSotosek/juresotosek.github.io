@@ -1,3 +1,99 @@
-div {
+body {
+  margin: 164px;
+  background-color: #f9f9f9;
+
   font-family: Arial, Helvetica, sans-serif;
+  color: #373530;
+}
+
+.me {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 600;
+
+  margin-top: 8px;
+}
+
+.description {
+  font-size: 21px;
+  line-height: 30px;
+
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+.connection_wrapper {
+  display: flex;
+  margin-top: 20px;
+}
+
+.connection_title {
+  width: 180px;
+  height: 32px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  text-align: right;
+}
+
+.conncetion_buttons_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.conncetion_button {
+  box-sizing: border-box;
+  display: inline-block;
+
+  height: 32px;
+  padding: 8px;
+  padding-left: 12px;
+  margin-left: 12px;
+
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration: none;
+
+  border-radius: 5px;
+  box-shadow: 0 2px 4px #d8d8d8;
+}
+
+.conncetion_button_second {
+  margin-top: 10px;
+}
+
+.kings {
+  background-color: #e22319;
+  color: #ffffff;
+}
+
+.amondo {
+  background-color: #fde957;
+  color: #000000;
+}
+
+.github {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.email {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.twitter {
+  background-color: #47a0eb;
+  color: #ffffff;
+}
+
+.opensource {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 36px;
+  margin-left: 100px;
 }
