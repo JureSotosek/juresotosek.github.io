@@ -1,4 +1,4 @@
-# juresotosek.github.io
+# 👨🏽‍💻 Jure Sotošek
 
 My personal website 💁🏽‍♂️
 
