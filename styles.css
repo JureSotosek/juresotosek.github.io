@@ -65,6 +65,15 @@ body {
 
   border-radius: 5px;
   box-shadow: 0 2px 4px #d8d8d8;
+
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.conncetion_button:hover {
+  transform: translateY(-2px);
 }
 
 .conncetion_button_second {
