@@ -1,12 +1,43 @@
 body {
-  margin: 164px 264px;
   background-color: #f9f9f9;
 
   font-family: Arial, Helvetica, sans-serif;
   color: #373530;
 
   display: flex;
+  flex-direction: row;
+  height: 100svh;
+  padding: 0;
+  margin: 0;
+}
+
+.left-column {
+  flex: 2;
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.right-column {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.opensource {
+  align-self: center;
+}
+
+.connection_wrapper {
+  justify-content: center;
 }
 
 .me {
@@ -80,21 +111,6 @@ body {
   margin-top: 10px;
 }
 
-.kings {
-  background-color: #e22319;
-  color: #ffffff;
-}
-
-.microsoft {
-  background-color: orange;
-  color: black;
-}
-
-.wrumersound {
-  background-color: #282F3E;
-  color: #F2A93B
-}
-
 .github {
   background-color: #000000;
   color: #ffffff;
@@ -116,7 +132,7 @@ body {
 }
 
 .opensource {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-top: 36px;
   margin-left: 100px;
 }
@@ -124,17 +140,21 @@ body {
 /* Tablet */
 @media only screen and (max-width: 870px) {
   body {
-    margin: 80px;
+    flex-direction: column;
+  }
+
+  .left-column {
+    /* align-items: center; */
+    padding: 20px;
+  }
+
+  .right-column {
+    padding: 10px;
   }
 }
 
 /* Mobile */
 @media only screen and (max-width: 700px) {
-  body {
-    margin: 40px 30px;
-    align-items: center;
-  }
-
   .me {
     width: 100%;
   }
